@@ -1,0 +1,74 @@
+/* register.css */
+
+.signup-container {
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background-color: #f0f4f8;
+    padding: 20px;
+  }
+  
+  .signup-form {
+    background-color: #ffffff;
+    border-radius: 16px;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.15);
+    padding: 40px;
+    width: 100%;
+    max-width: 400px;
+    text-align: center;
+  }
+  
+  .title {
+    margin-bottom: 20px;
+    color: #2a2a72;
+    font-weight: 600;
+  }
+  
+  .input {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 15px;
+    border: 2px solid #2a2a72;
+    border-radius: 8px;
+    outline: none;
+    font-size: 16px;
+  }
+  
+  .input:focus {
+    border-color: #4a90e2;
+    box-shadow: 0 0 8px rgba(74, 144, 226, 0.5);
+  }
+  
+  .otp-btn, .submit-btn {
+    width: 100%;
+    background-color: #4a90e2;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    padding: 12px;
+    margin-top: 10px;
+    cursor: pointer;
+    font-weight: 600;
+    transition: background 0.3s ease;
+  }
+  
+  .otp-btn:hover, .submit-btn:hover {
+    background-color: #357ab8;
+  }
+  
+  .footer-text {
+    margin-top: 15px;
+    color: #555;
+  }
+  
+  .login-link {
+    color: #4a90e2;
+    text-decoration: none;
+    font-weight: 600;
+  }
+  
+  .login-link:hover {
+    text-decoration: underline;
+  }
+  

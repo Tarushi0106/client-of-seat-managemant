@@ -1,0 +1,183 @@
+/* Body and General Styles */
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #ffffff;
+    font-family: 'Poppins', sans-serif;
+    color: #333;
+}
+
+/* Container */
+.home-container, .seat-booking-container, .container {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: #f0f2f5;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+/* Header */
+.header {
+    margin-bottom: 20px;
+}
+
+.header h1 {
+    font-size: 3rem;
+    margin-bottom: 10px;
+    color: #2a2a72;
+    letter-spacing: 1.5px;
+}
+
+.header p {
+    font-size: 1.2rem;
+    color: #555;
+    opacity: 0.9;
+}
+
+/* Content Section */
+.content {
+    background: #f0f4f8;
+    padding: 35px 45px;
+    border-radius: 20px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+    width: 100%;
+    max-width: 480px;
+    transition: transform 0.3s ease;
+}
+
+.content:hover {
+    transform: scale(1.03);
+}
+
+/* Info Box */
+.info-box {
+    margin-bottom: 25px;
+}
+
+.info-box h2 {
+    color: #4a90e2;
+    font-size: 1.6rem;
+}
+
+/* Actions */
+.actions {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.btn {
+    background: #4a90e2;
+    color: #fff;
+    border: none;
+    border-radius: 30px;
+    padding: 14px 22px;
+    cursor: pointer;
+    text-decoration: none;
+    transition: all 0.3s ease;
+    font-weight: bold;
+}
+
+.btn.primary {
+    background: #1565C0;
+}
+
+.btn.secondary {
+    background: #90CAF9;
+    color: #0D47A1;
+}
+
+.btn:hover {
+    transform: scale(1.08);
+    box-shadow: 0 5px 15px rgba(74, 144, 226, 0.7);
+}
+
+/* Footer */
+.footer {
+    margin-top: 25px;
+    font-size: 0.9rem;
+    color: #777;
+}
+
+/* Logout Button */
+.logout-container {
+    position: fixed;
+    top: 12px;
+    right: 12px;
+    background-color: #e53935;
+    border-radius: 8px;
+    padding: 10px 14px;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.3);
+}
+
+.logout-btn {
+    background-color: transparent;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: bold;
+    transition: opacity 0.3s ease;
+}
+
+.logout-btn:hover {
+    opacity: 0.9;
+}
+
+.booking-form, .form {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    width: 100%;
+    max-width: 400px;
+}
+
+label {
+    font-weight: bold;
+    color: #555;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+input[type="datetime-local"],
+input[type="date"],
+input[type="time"] {
+    width: 100%;
+    padding: 10px;
+    border: 2px solid #ddd;
+    border-radius: 8px;
+}
+
+/* Remove the default focus outline */
+input:focus {
+    outline: none;
+    border: 2px solid #4CAF50; /* Customize the border color */
+    box-shadow: 0 0 5px rgba(76, 175, 80, 0.5); /* Optional: Add a box shadow */
+}
+
+button {
+    background-color: #0D47A1;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #254472;
+}
