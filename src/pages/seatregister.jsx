@@ -3,7 +3,7 @@ import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import axios from 'axios';
 import seatPlan from './seatplan.png';
-import './SeatRegister.css';
+import './seatregister.css';
 
 const SeatRegister = () => {
   const navigate = useNavigate();
