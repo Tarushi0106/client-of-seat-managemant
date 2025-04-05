@@ -39,7 +39,7 @@ const App = () => {
     const token = crypto.randomUUID();
   
     try {
-      await axios.post('http://localhost:3000/user/seats/book', {
+      await axios.post('https://seat-reservation-tool.onrender.com/user/seats/book', {
         seat: seatNumber,
         name,
         contact,
