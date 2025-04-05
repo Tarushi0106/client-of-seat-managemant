@@ -13,16 +13,16 @@ const Register = () => {
   const submitHandler = async (e) => {
     e.preventDefault();
 
-    // if (!email.endsWith('@ericsson.com')) {
-    //   alert('Only users working in Ericsson can register.');
-    //   return;
-    // }
+    if (!email.endsWith('@ericsson.com')) {
+      alert('Only users working in Ericsson can register.');
+      return;
+    }
 
     const newUser = { firstname, lastname, email, password };
 
     try {
       const response = await axios.post(
-        "https://seat-reservation-tool.onrender.com/user/register",
+        'https://seat-reservation-tool.onrender.com/user/register',
         newUser,
         { headers: { 'Content-Type': 'application/json' } }
       );
