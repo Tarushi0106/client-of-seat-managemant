@@ -35,22 +35,24 @@ h1 {
 }
 
 .available {
-  background-image: url('https://img.icons8.com/?size=100&id=wdjZoBIn6gMO&format=png&color=000000');
+  background-image: url('https://cdn-icons-png.flaticon.com/512/183/183561.png');
   border-color: #28a745;
 }
 
 .booked {
-  background-image: url('https://img.icons8.com/?size=100&id=wdjZoBIn6gMO&format=png&color=000000');
+  background-image: url('https://cdn-icons-png.flaticon.com/512/183/183561.png');
   background-color: #ffcccc;
   border-color: #dc3545;
   cursor: not-allowed;
 }
 
 .selected {
-  background-image: url('https://img.icons8.com/?size=100&id=wdjZoBIn6gMO&format=png&color=000000');
+  background-image: url('https://cdn-icons-png.flaticon.com/512/183/183561.png');
   background-color: #d4edda;
   border-color: #007b00;
 }
+
+
 
 .amenity {
   display: flex;
